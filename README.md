@@ -1,2 +1,2 @@
 # Steam-Checker
-[*] SteamWorks: https://github.com/KyleSanderson/SteamWorks
+* SteamWorks: https://github.com/KyleSanderson/SteamWorks
