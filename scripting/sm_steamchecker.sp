@@ -24,17 +24,17 @@ public Action Cmd_SteamChecker(int client, int args)
         {
             switch (SteamWorks_HasLicenseForApp(i, CSGO_APPID))
             {
-                case k_EUserHasLicenseResultHasLicense: // HasLicense [Игрок имеет steam]
+                case k_EUserHasLicenseResultHasLicense: // HasLicense [РРіСЂРѕРє РёРјРµРµС‚ steam]
                 {
                     PrintToConsole(client, "Steam = %N", i);
                 }
                
-                case k_EUserHasLicenseResultDoesNotHaveLicense: // DoesNotHaveLicense [Игрок имеет nosteam]
+                case k_EUserHasLicenseResultDoesNotHaveLicense: // DoesNotHaveLicense [РРіСЂРѕРє РёРјРµРµС‚ nosteam]
                 {
                     PrintToConsole(client, "Non-Steam = %N", i);
                 }
                
-                case k_EUserHasLicenseResultNoAuth: // NoAuth [Игрок не авторизовался]
+                case k_EUserHasLicenseResultNoAuth: // NoAuth [РРіСЂРѕРє РЅРµ Р°РІС‚РѕСЂРёР·РѕРІР°Р»СЃСЏ]
                 {
                     PrintToConsole(client, "No auth = %N", i);
                 }
